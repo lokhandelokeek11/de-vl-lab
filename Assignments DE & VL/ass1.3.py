@@ -11,6 +11,10 @@ matrix_b = np.array([[9, 8, 7],
 addition = matrix_a + matrix_b
 print("Addition:\n", addition)
 
+# 1.1 Addition using add() function
+add_function = np.add(matrix_a , matrix_b)
+print("Addition Using add function",add_function)
+
 print()
 
 # 2. Substraction
@@ -29,6 +33,7 @@ print("Matrix Multiplication (Dot Product):\n", dot_multiplication)
 
 # 3.2 Multiplication using Multiply() function
 mul_function = np.multiply(matrix_a,matrix_b)
+print("Matrix Multiplication (Function Method):\n", mul_function)
     
 print()
 
@@ -42,13 +47,19 @@ print()
 flattened = matrix_a.flatten()
 print("Flattened Matrix A:\n", flattened)
 
+print()
+
 # 6. Reshaping 
 reshaped = matrix_a.reshape(1,9)
-print("Reshaped Matrix:\n",)
+print("Reshaped Matrix:\n",reshaped)
+
+print()
 
 # 7. Concatenation - along rows
 concatenated = np.concatenate((matrix_a, matrix_b), axis = 0)
 print("Concatenated Matrix (along rows):\n", concatenated)
+
+print()
 
 # 7.1 Concatenation - along columns 
 concatenated = np.concatenate((matrix_a, matrix_b), axis = 1)
@@ -59,5 +70,10 @@ print()
 # 8. Transpose
 transpose_a = matrix_a.T
 print("Transpose of Matrix A:\n", transpose_a)
+
+print()
+
+#9. Digonal Matrix
+digonal = np.diag(np.diag(matrix_a))
 
 
