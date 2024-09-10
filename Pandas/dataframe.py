@@ -13,4 +13,8 @@ data = {
     "duration":[50,40,45]
 }
 myvar = pd.DataFrame(data,index = ["day1","day2","day3"])
+<<<<<<< HEAD
 print(myvar)
+=======
+print(myvar)
+>>>>>>> 6800c740d67e961c35c45b89fb33e9c1746a71aa

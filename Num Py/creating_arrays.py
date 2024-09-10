@@ -16,4 +16,8 @@ print(d.ndim)
 
 arr = np.array([1, 2, 3, 4], ndmin=5)
 print(arr)
+<<<<<<< HEAD
 print('number of dimensions :', arr.ndim)
+=======
+print('number of dimensions :', arr.ndim)
+>>>>>>> 6800c740d67e961c35c45b89fb33e9c1746a71aa

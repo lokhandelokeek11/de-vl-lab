@@ -1,6 +1,10 @@
 import pandas as pd
 
+<<<<<<< HEAD
 pd = pd.read_csv('F:\Datasets for R and Python\olympics.zip')
+=======
+pd = pd.read_csv('F:\datasets\olympics.zip')
+>>>>>>> 6800c740d67e961c35c45b89fb33e9c1746a71aa
 
  # Display first few rows     
 print("Data of first few rows: ")
@@ -43,4 +47,8 @@ print(pd.isnull().sum())
 
   # Sort by 'column_name' in ascending order
 print("Sorted data : ")
+<<<<<<< HEAD
 sorted_data = pd.sort_values('gender')
+=======
+sorted_data = pd.sort_values('gender')
+>>>>>>> 6800c740d67e961c35c45b89fb33e9c1746a71aa

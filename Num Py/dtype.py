@@ -15,4 +15,8 @@ print(x)
 x = arr.view()
 arr[0] = 42
 print(arr)
+<<<<<<< HEAD
 print(x)
+=======
+print(x)
+>>>>>>> 6800c740d67e961c35c45b89fb33e9c1746a71aa
