@@ -3,17 +3,19 @@ import matplotlib.pyplot as plt
 
 tips = sns.load_dataset("tips")
 
-# Display the current color palette
+#Qualitative colour paletts
 current_palette = sns.color_palette()
 sns.palplot(current_palette)
 plt.title("Current Color Palette")
 plt.show()
 
-# Set a new color palette (e.g., "deep")
-sns.set_palette("deep")
+#Sequential colour paletts
+current_palette2 = sns.color_palette()
+sns.palplot (sns.color_palette("Reds",12))
 plt.show()
+    
+#Diverging colour palette
 
-qualitative_palette = sns.color_palette("Set2")
-sns.palplot(qualitative_palette)
-plt.title("Qualitative Palette: Set2")
+current_palette3 = sns.color_palette()
+sns.palplot(sns.color_palette("BrBG",20))
 plt.show()
